@@ -1578,11 +1578,12 @@ footer .footer-icons div{
     }
     
     .main .hero .hero-info {
-        top:68%;
+        top:65%;
     }
 
     .main .hero .hero-info .tagline {
         width:auto;
+        font-weight:700;
         font-size:1.8rem;
     }
 
@@ -1979,4 +1980,32 @@ footer .footer-icons div{
         text-align:center;
         cursor:pointer;
     }
+
+    
+    footer{
+        width:100%;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:30px 0;
+    }
+
+    footer .footer-links {
+        width:300px;
+    }
+
+    footer .footer-icons{
+        width:100%;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        margin:0 auto;
+    }
+
+    footer .footer-icons div{
+        justify-content: center;
+        margin:0 auto;
+    }
+    
 }
